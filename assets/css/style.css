@@ -1,3 +1,37 @@
 /* Import fonts from Google Fonts */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Navigation menu */
+
+.navbar-brand {
+    padding: 0 2rem 0 5rem;
+}
+
+.navbar {
+    padding: 1rem 20rem;
+}
+
+.nav-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    padding: 1.7rem;
+}
+
+.active a {
+    background: linear-gradient(90deg, #A890FE 0%, #A890FE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-nav a:hover {
+    background: linear-gradient(90deg, #A890FE 0%, #A890FE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
