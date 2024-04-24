@@ -88,21 +88,28 @@
     font: normal bold 50px/72px;
 }
 
-/* Buttons */
+/* About area */
 
-.button .primary-button {
-    background: var(--gradient-color);
-    background-clip: padding-box;
-    color: whitesmoke;
-    transition: ;
-    box-shadow: var(--box-shadow);
+.site-main .about-area {
+    padding: 8rem 5rem;
 }
 
-.button .primary-button:hover {
-    background: whitesmoke;
-    background-clip: padding-box;
-    color: black;
+.site-main .about-area .about-title h2 > span {
+    display: block;
+    font-family: var(--roboto);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 49px;
+    line-height: 60px;
+    letter-spacing: 21px;
 }
+
+.site-main .about-area .about-title .paragraph > p {
+    padding: .4rem 0;
+}
+
+
+
 
 
 
