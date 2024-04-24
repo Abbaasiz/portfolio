@@ -1,6 +1,13 @@
 /* Import fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+/* Import css variables */
+@import url('partials/_variables.css');
+
+/* Import global styling */
+@import url('partials/_global.css');
+
 /* Navigation menu */
 
 .navbar-brand {
@@ -12,25 +19,90 @@
 }
 
 .nav-link {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--roboto);
     font-weight: 500;
-    color: black;
+    color: var(--title-color);
     text-transform: uppercase;
     padding: 1.7rem;
 }
 
 .active a {
-    background: linear-gradient(90deg, #A890FE 0%, #A890FE 100%);
+    background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .navbar-nav a:hover {
-    background: linear-gradient(90deg, #A890FE 0%, #A890FE 100%);
+    background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
+/* Banner area */
+
+.site-main .site-banner {
+    height: 100vh;
+    background: url('../images/home-banner.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image {
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+.title-text {
+    font-family: "Roboto", sans-serif;
+    font: normal bold 50px/72px;
+}
+
+/* Buttons */
+
+.button .primary-button {
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: ;
+    box-shadow: var(--box-shadow);
+}
+
+.button .primary-button:hover {
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
 
 
 
