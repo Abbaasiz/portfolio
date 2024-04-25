@@ -1,7 +1,11 @@
 /* Global classes */
 
 .title-text {
-    font: normal bold 50px/72px var(--roboto);
+    font: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 72px;
+    font-family: var(--roboto);
 }
 
 .text-uppercase {
