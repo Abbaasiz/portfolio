@@ -161,6 +161,38 @@
     position: relative;
 }
 
+.site-main .brand-area .experience-area .bg-panel {
+    position: absolute;
+    left: -190px; top: 0%;
+    background: #e029290a;
+    width: 400px;
+    height: 400px;
+    margin-left: 340px;
+    z-index: -1;
+} 
+
+.site-main .brand-area .experience-area .years-area .years {
+    font: normal;
+    font-weight: bold;
+    font-size: 84px;
+    line-height: 40px;
+    font-family: var(--roboto);
+    color: var(--primary-color2);
+    z-index: 2;
+}
+
+.site-main .brand-area .experience-area .years-area h2 > span {
+    font: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: var(--roboto);
+}
+
+.site-main .brand-area .experience-area .call-area {
+    padding-left: 10rem;
+}
+
 
 
 
